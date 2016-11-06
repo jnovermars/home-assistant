@@ -1,0 +1,9 @@
+default_view:
+  view: yes
+  icon: mdi:home-outline
+  entities:
+    - group.climate
+    - group.lights
+    - group.weather
+    - group.tv
+    - group.muziek
