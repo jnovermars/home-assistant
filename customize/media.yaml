@@ -1,0 +1,8 @@
+media_player.mpd:
+  friendly_name: Muziek
+  homebridge_name: muziek
+
+media_player.unnamed_device:
+  friendly_name: Woonkamer
+media_player.unnamed_device_2:
+  friendly_name: Keuken

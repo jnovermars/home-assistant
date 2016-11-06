@@ -1,0 +1,23 @@
+default_view:
+  view: yes
+  icon: mdi:home-outline
+  entities:
+    - group.climate
+    - group.lights
+    - group.weather
+    - group.tv
+    - group.muziek
+
+verwarming:
+  view: yes
+  name: Verwarming
+  entities:
+    - group.climate_boven
+    - group.climate_beneden
+    - group.climate_slaapkamer
+
+verlichting:
+  view: yes
+  name: Verlichting
+  entities:
+    - light.fibaro_system_fgd212_dimmer_2_level_16_0

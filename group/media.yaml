@@ -1,0 +1,6 @@
+muziek:
+  name: Muziek
+  entities:
+    - media_player.mpd
+    - media_player.unnamed_device
+    - media_player.unnamed_device_2

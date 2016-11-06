@@ -1,0 +1,8 @@
+- platform: rfxtrx
+  automatic_add: True
+  devices:
+    0a520700350e00a5410149:
+      name: Badkamer
+      data_type:
+       - Humidity
+       - Temperature

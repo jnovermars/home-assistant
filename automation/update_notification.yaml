@@ -1,0 +1,10 @@
+- alias: Update notifications
+  hide_entity: True
+  trigger:
+    - platform: state
+      entity_id: updater.updater
+  action:
+    service: notify.pushbullet
+    data:
+      title: "Home Assistant update beschikbaar"
+      message: "Home Assistant {% raw %} {{ states.updater.updater.state }} {% endraw %} is beschikbaar."

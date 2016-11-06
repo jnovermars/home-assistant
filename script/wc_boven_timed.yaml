@@ -1,0 +1,12 @@
+sequence:
+  # Cancel ev. old timers
+  - service: script.turn_off
+    data:
+      entity_id: script.wc_boven_timed_off
+  - service: light.turn_on
+    data:
+      entity_id: light.wc_boven
+  # Set new timer  
+  - service: script.turn_on
+    data:
+      entity_id: script.wc_boven_timed_off

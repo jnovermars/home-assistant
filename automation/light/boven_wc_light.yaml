@@ -1,0 +1,14 @@
+- alias: WC verlichting
+  hide_entity: True
+  trigger:
+    platform: state
+    entity_id: switch.wc_boven
+    from: 'off'
+    to: 'on'
+  condition:
+    - condition: state
+      entity_id: light.wc_boven
+      state: 'off'
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.wc_boven_timed

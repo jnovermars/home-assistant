@@ -1,0 +1,10 @@
+light.wc_boven:
+  friendly_name: WC
+light.fibaro_system_fgd212_dimmer_2_level_16_0:
+  friendly_name: Badkamer
+light.fibaro_system_fgd212_dimmer_2_level_16_0_2:
+  hidden: true
+light.fibaro_system_fgd212_dimmer_2_step_size_16_6:
+  hidden: true
+light.fibaro_system_fgd212_dimmer_2_step_size_16_6_2:
+  hidden: true

@@ -1,0 +1,10 @@
+# script.wc_boven_timed:
+#   hidden: true
+# script.wc_boven_timed_off:
+#   hidden: true
+# script.badkamer_timed:
+#   hidden: true
+# script.badkamer_timed_night:
+#   hidden: true
+# script.badkamer_timed_off:
+#   hidden: true

@@ -1,0 +1,13 @@
+sequence:
+  # Cancel ev. old timers
+  - service: script.turn_off
+    data:
+      entity_id: script.badkamer_timed_off
+  - service: light.turn_on
+    data:
+      entity_id: light.fibaro_system_fgd212_dimmer_2_level_16_0
+      brightness: 10
+  # Set new timer  
+  - service: script.turn_on
+    data:
+      entity_id: script.badkamer_timed_off

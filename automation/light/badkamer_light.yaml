@@ -1,0 +1,14 @@
+- alias: Badkamerverlichting
+  hide_entity: True
+  trigger:
+    platform: state
+    entity_id: binary_sensor.aeotec_zw100_multisensor_6_sensor_17_0
+    to: 'on'
+  condition:
+    - condition: time
+      after: '06:30'
+      before: '23:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.badkamer_timed
+

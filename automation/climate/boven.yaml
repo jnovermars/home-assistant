@@ -1,0 +1,10 @@
+- alias: Boven
+  hide_entity: True
+  trigger:
+    platform: state
+    entity_id: climate.boven
+  action:
+    - service: climate.set_temperature
+      data_template:
+        entity_id: group.climate_boven
+        temperature: '{{states.climate.boven.attributes.temperature}}'

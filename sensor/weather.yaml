@@ -1,0 +1,6 @@
+- platform: wunderground
+  api_key: fffd43a5fcfaba6c
+  pws_id: IROTTERD83
+  monitored_conditions:
+    - weather
+    - temp_c

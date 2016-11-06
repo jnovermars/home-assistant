@@ -1,0 +1,38 @@
+switch.buitendeur:
+  assumed_state: false
+  icon: mdi:crop-portrait
+switch.wc_boven:
+  assumed_state: false
+  friendly_name: WC-deur
+  icon: mdi:crop-portrait
+switch.speakers_keuken:
+  assumed_state: false
+
+switch.fibaro_system_ventilatie_switch_4_0:
+  friendly_name: Stand 2
+  icon: mdi:fan
+switch.fibaro_system_ventilatie_switch_4_0_2:
+  friendly_name: Stand 3
+  icon: mdi:fan
+
+switch.greenwave_powernode_6_port_switch_8_0:
+  friendly_name: Z-5400
+  icon: mdi:speaker
+switch.greenwave_powernode_6_port_switch_8_0_2:
+  friendly_name: Game
+  icon: mdi:google-controller
+switch.greenwave_powernode_6_port_switch_8_0_3:
+  friendly_name: CD
+  icon: mdi:album
+switch.greenwave_powernode_6_port_switch_8_0_4:
+  friendly_name: Horizon
+  icon: mdi:drag-horizontal
+switch.greenwave_powernode_6_port_switch_8_0_5:
+  friendly_name: Receiver
+  icon: mdi:server
+switch.greenwave_powernode_6_port_switch_8_0_6:
+  friendly_name: TV
+  icon: mdi:television
+
+switch.0b1100500028bc0201010f50:
+  friendly_name: Speakers - Keuken

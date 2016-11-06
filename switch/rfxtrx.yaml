@@ -1,0 +1,15 @@
+- platform: rfxtrx
+  automatic_add: True
+  devices:
+    0b110004011bd1aa0a010f50:
+      name: buitendeur
+    0b110000011bd7560a010f60:
+      name: wc_boven
+    0b1100030028bc0201010f50:
+      name: speakers_keuken
+    0b1100170028bc0202010f60:
+      name: letter_b
+    0b11000c0028bc0203010f60:
+      name: letter_c
+    0b11000e0028bc0204010f60:
+      name: letter_d

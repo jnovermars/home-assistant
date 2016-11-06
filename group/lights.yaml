@@ -1,0 +1,5 @@
+lights:
+  name: Verlichting
+  entities:
+    - group.all_lights
+

@@ -1,0 +1,13 @@
+- alias: Verwarmingsync boven
+  hide_entity: True
+  trigger:
+    platform: event
+    event_type: zwave.network_ready
+  condition:
+    condition: template
+    value_template: '{{ states.climate.danfoss_z_thermostat_014g0013_heating_1_9_1.attributes.temperature == states.climate.danfoss_z_thermostat_014g0013_heating_1_10_1.attributes.temperature }}'
+  action:
+    service: climate.set_temperature
+    data_template:
+      entity_id: climate.boven
+      temperature: '{{states.climate.danfoss_z_thermostat_014g0013_heating_1_9_1.attributes.temperature}}'
