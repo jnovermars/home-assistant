@@ -1,0 +1,6 @@
+deuren:
+  view: yes
+  name: Deuren
+  entities:
+    - switch.buitendeur
+    - switch.wc_boven
