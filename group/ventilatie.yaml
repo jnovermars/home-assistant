@@ -1,0 +1,5 @@
+ventilatie:
+  name: Ventilatie
+  entities:
+    - switch.fibaro_system_ventilatie_switch_4_0
+    - switch.fibaro_system_ventilatie_switch_4_0_2

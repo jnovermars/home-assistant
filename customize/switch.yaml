@@ -1,5 +1,6 @@
 switch.buitendeur:
   assumed_state: false
+  friendly_name: Buitendeur
   icon: mdi:crop-portrait
 switch.wc_boven:
   assumed_state: false

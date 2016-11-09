@@ -3,6 +3,6 @@ media_player.mpd:
   homebridge_name: muziek
 
 media_player.unnamed_device:
-  friendly_name: Woonkamer
-media_player.unnamed_device_2:
   friendly_name: Keuken
+media_player.unnamed_device_2:
+  friendly_name: Woonkamer

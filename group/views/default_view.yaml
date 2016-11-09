@@ -7,3 +7,4 @@ default_view:
     - group.weather
     - group.tv
     - group.muziek
+    - input_boolean.ventilatie_hoog
