@@ -1,0 +1,5 @@
+usage:
+  name: Verbruik
+  entities:
+    - sensor.neo_coolcam_power_plug_12a_power_22_8
+    - sensor.neo_coolcam_power_plug_12a_power_23_8

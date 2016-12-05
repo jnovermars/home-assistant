@@ -1,0 +1,5 @@
+humidity:
+  name: Luchtvochtigheid
+  entities:
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity_17_5
+    - sensor.woonkamer_humidity

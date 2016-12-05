@@ -1,0 +1,5 @@
+presence:
+  name: Thuis
+  entities:
+    - device_tracker.iphone_ashwin
+    - device_tracker.iphone_naomi

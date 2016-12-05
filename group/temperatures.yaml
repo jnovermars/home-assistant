@@ -1,0 +1,5 @@
+temperatures:
+  name: Temperaturen
+  entities:
+    - sensor.aeotec_zw100_multisensor_6_temperature_17_1
+    - sensor.woonkamer_temperature

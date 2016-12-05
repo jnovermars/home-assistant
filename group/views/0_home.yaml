@@ -1,5 +1,6 @@
 default_view:
   view: yes
+  name: Home
   icon: mdi:home-outline
   entities:
     - group.climate
@@ -7,4 +8,6 @@ default_view:
     - group.weather
     - group.tv
     - group.muziek
-    - input_boolean.ventilatie_hoog
+    - group.presence
+    - switch.speakers_keuken
+    - group.christmas

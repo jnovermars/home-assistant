@@ -1,0 +1,10 @@
+temperaturen:
+  view: yes
+  name: Temperaturen
+  icon: mdi:thermometer
+  entities:
+    - group.climate_boven
+    - group.climate_beneden
+    - group.climate_slaapkamer
+    - group.temperatures
+    - group.humidity

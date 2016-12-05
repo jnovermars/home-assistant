@@ -2,18 +2,28 @@ switch.buitendeur:
   assumed_state: false
   friendly_name: Buitendeur
   icon: mdi:crop-portrait
+
 switch.wc_boven:
   assumed_state: false
   friendly_name: WC-deur
   icon: mdi:crop-portrait
-switch.speakers_keuken:
+
+switch.switch_1:
+  friendly_name: Trap
+  icon: mdi:lightbulb
+  assumed_state: false
+switch.switch_2:
+  friendly_name: Raam
+  icon: mdi:lightbulb
   assumed_state: false
 
 switch.fibaro_system_ventilatie_switch_4_0:
   friendly_name: Stand 2
   icon: mdi:fan
-switch.fibaro_system_ventilatie_switch_4_0_2:
-  friendly_name: Stand 3
+  hidden: true
+
+switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0:
+  friendly_name: Ventilatie
   icon: mdi:fan
 
 switch.greenwave_powernode_6_port_switch_8_0:
@@ -35,5 +45,10 @@ switch.greenwave_powernode_6_port_switch_8_0_6:
   friendly_name: TV
   icon: mdi:television
 
-switch.0b1100500028bc0201010f50:
-  friendly_name: Speakers - Keuken
+switch.neo_coolcam_power_plug_12a_switch_22_0:
+  friendly_name: Staande lamp
+  icon: mdi:lightbulb
+
+switch.neo_coolcam_power_plug_12a_switch_23_0:
+  friendly_name: Vaatwasser
+  icon: mdi:application

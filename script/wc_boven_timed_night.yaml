@@ -6,7 +6,7 @@ sequence:
   - service: light.turn_on
     data:
       entity_id: light.wc_boven
-      brightness: 255
+      brightness: 10
   # Set new timer  
   - service: script.turn_on
     data:

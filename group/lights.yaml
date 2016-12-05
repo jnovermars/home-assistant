@@ -1,5 +1,7 @@
 lights:
   name: Verlichting
   entities:
-    - group.all_lights
+    - light.fibaro_system_fgd212_dimmer_2_level_16_0
+    - light.wc_boven
+    - switch.neo_coolcam_power_plug_12a_switch_22_0
 

@@ -1,0 +1,6 @@
+verbruik:
+  view: yes
+  name: Verbruik
+  icon: mdi:flash
+  entities:
+    - group.usage

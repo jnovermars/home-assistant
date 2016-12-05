@@ -1,13 +1,13 @@
-- alias: Badkamerverlichting
+- alias: Badkamerverlichting ('s Nachts)
   hide_entity: True
   trigger:
     platform: state
-    entity_id: sensor.aeotec_zw100_multisensor_6_burglar_17_10
-    to: '8'
+    entity_id: binary_sensor.aeotec_zw100_multisensor_6_sensor_17_0
+    to: 'on'
   condition:
     - condition: time
       after: '23:00'
-      before: '06:30'
+      before: '06:00'
   action:
     service: homeassistant.turn_on
     entity_id: script.badkamer_timed_night

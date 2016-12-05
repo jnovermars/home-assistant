@@ -1,0 +1,6 @@
+verlichting:
+  view: yes
+  name: Verlichting
+  icon: mdi:lightbulb
+  entities:
+    - group.lights

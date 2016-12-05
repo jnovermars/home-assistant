@@ -34,6 +34,9 @@ conversation:
 # Enables support for tracking state changes over time.
 history:
 
+recorder:
+  purge_days: 14
+
 # Logs
 logger:
   default: info
@@ -53,7 +56,7 @@ automation: !include_dir_merge_list automation
 script: !include_dir_named script
 camera: !include_dir_merge_list camera
 media_player: !include_dir_merge_list media_player
-input_boolean: !include_dir_merge_named input_booleans
+# input_boolean: !include_dir_merge_named input_booleans
 
 # Zwave
 zwave:
@@ -63,8 +66,6 @@ zwave:
 rfxtrx:
   device: /dev/rfxcom
 
-
-
 device_tracker:
   - platform: unifi
     host: 192.168.39.2
@@ -73,10 +74,7 @@ device_tracker:
     username: ashwin
     password: !secret unifi_password
 
-
-#device_sun_light_trigger:
-
 notify:
-  - name: notify
+  - name: pushbullet
     platform: pushbullet
     api_key: !secret pushbullet_api_key

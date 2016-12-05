@@ -1,4 +1,4 @@
-- alias: WC verlichting
+- alias: WC verlichting ('s Nachts')
   hide_entity: True
   trigger:
     platform: state
@@ -12,8 +12,8 @@
         entity_id: light.wc_boven
         state: 'off'
       - condition: time
-        after: '06:30'
-        before: '23:00'
+        after: '23:00'
+        before: '06:30'
   action:
     service: homeassistant.turn_on
-    entity_id: script.wc_boven_timed
+    entity_id: script.wc_boven_timed_night

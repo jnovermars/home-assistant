@@ -2,7 +2,7 @@
   automatic_add: True
   devices:
     0a520700350e00a5410149:
-      name: Badkamer
+      name: Woonkamer
       data_type:
        - Humidity
        - Temperature

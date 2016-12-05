@@ -1,6 +1,7 @@
 deuren:
   view: yes
   name: Deuren
+  icon: mdi:crop-portrait
   entities:
     - switch.buitendeur
     - switch.wc_boven

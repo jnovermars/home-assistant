@@ -1,0 +1,5 @@
+christmas:
+  name: Lampjes
+  entities:
+    - switch.switch_1
+    - switch.switch_2

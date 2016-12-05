@@ -1,7 +1,0 @@
-verwarming:
-  view: yes
-  name: Verwarming
-  entities:
-    - group.climate_boven
-    - group.climate_beneden
-    - group.climate_slaapkamer

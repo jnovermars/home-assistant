@@ -5,11 +5,7 @@
       name: buitendeur
     0b110000011bd7560a010f60:
       name: wc_boven
-    0b1100030028bc0201010f50:
-      name: speakers_keuken
-    0b1100170028bc0202010f60:
-      name: letter_b
-    0b11000c0028bc0203010f60:
-      name: letter_c
-    0b11000e0028bc0204010f60:
-      name: letter_d
+    0710010141090170:
+      name: switch_1
+    '0710010141050170':
+      name: switch_2

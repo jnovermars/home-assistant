@@ -1,0 +1,9 @@
+- alias: Raamverlichting aan
+  hide_entity: True
+  trigger:
+    platform: sun
+    event: sunset
+    offset: '00:05:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.switch_2

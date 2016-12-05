@@ -1,6 +1,0 @@
-verlichting:
-  view: yes
-  name: Verlichting
-  entities:
-    - light.fibaro_system_fgd212_dimmer_2_level_16_0
-    - light.wc_boven

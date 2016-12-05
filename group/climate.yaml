@@ -1,9 +1,10 @@
 climate:
-  name: Verwarming
+  name: Klimaat
   entities:
     - climate.beneden
     - climate.boven
     - climate.slaapkamer
+    - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0
 
 climate_beneden:
   name: Beneden

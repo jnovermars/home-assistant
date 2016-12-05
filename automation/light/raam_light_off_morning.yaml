@@ -1,0 +1,9 @@
+- alias: Raamverlichting uit ('s ochtends')
+  hide_entity: True
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: '-00:30:00'
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.switch_2
